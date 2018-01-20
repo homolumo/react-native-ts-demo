@@ -20,10 +20,10 @@ function Hello({ name, enthusiasmLevel = 1, onIncrement, onDecrement }: IProps) 
       <Text style={styles.greeting}>Hello {name + getExclamationMarks(enthusiasmLevel)}</Text>
       <View style={styles.buttons}>
         <View style={styles.button}>
-          <Button title='-' onPress={onDecrement || noop} color='red' />
+          <Button title="-" onPress={onDecrement || noop} color="red" />
         </View>
         <View style={styles.button}>
-          <Button title='+' onPress={onIncrement || noop} color='blue' />
+          <Button title="+" onPress={onIncrement || noop} color="blue" />
         </View>
       </View>
     </View>
