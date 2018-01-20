@@ -1,11 +1,13 @@
 {
-  "name": "helloWorld",
+  "name": "hello-world",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "build-ts": "tsc"
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "start:ios": "react-native run-ios & yarn run watch-ts"
   },
   "dependencies": {
     "react": "16.2.0",
