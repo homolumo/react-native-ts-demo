@@ -11,7 +11,11 @@ export default class App extends React.Component<{}> {
     const pic = {
       uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg',
     };
-
+    fetch('https://test.ejiaoji.com/appjiaoji/api/index/list').then((r) => {
+      r.json().then((json) => {
+        console.log(json);
+      });
+    });
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>

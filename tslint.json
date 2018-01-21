@@ -6,6 +6,7 @@
         true,
         "allow-leading-underscore"
       ],
+      "no-console": false,
       "quotemark": [
         true,
         "single",

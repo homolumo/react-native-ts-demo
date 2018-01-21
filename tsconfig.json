@@ -2,7 +2,7 @@
   "compilerOptions": {
     "types": ["react", "react-native", "jest"],
     "module": "commonjs",
-    "target": "es2017",
+    "target": "es2015",
     "noImplicitAny": false,
     "sourceMap": true,
     "pretty": true,
