@@ -1,13 +1,24 @@
 {
   "compilerOptions": {
     "types": ["react", "react-native", "jest"],
-    "module": "commonjs",
-    "target": "es2015",
-    "noImplicitAny": false,
+    "module": "es2015",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
     "sourceMap": true,
     "pretty": true,
-    "outDir": "./dist",
-    "jsx": "react"
+    "jsx": "react-native",
+    "sourceRoot": "src",
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "baseUrl": "."
   },
-  "include": ["./src/"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*"
+  ]
 }

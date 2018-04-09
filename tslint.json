@@ -1,7 +1,12 @@
 {
     "extends": ["tslint:latest", "tslint-react"],
     "rules": {
+      "object-literal-sort-keys": false,
+      "prefer-conditional-expression": false,
       "jsx-wrap-multiline": false,
+      "jsx-no-multiline-js": false,
+      "no-submodule-imports": false,
+      "no-implicit-dependencies": false,
       "variable-name": [
         true,
         "allow-leading-underscore"
@@ -35,6 +40,7 @@
         "check-type",
         "check-typecast",
         "check-preblock"
-      ]
+      ],
+      "no-bitwise": false
     }
   }
